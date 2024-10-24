@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vs Code clone</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="Nav-Bar">
+      <div style="display: flex; align-items: center">
+        <img
+          src="https://code.visualstudio.com/favicon.ico"
+          alt=""
+          height="22px"
+        />
+        <span
+          style="
+            color: white;
+            font-size: larger;
+            font-weight: 500;
+            padding-left: 10px;
+          "
+          >Visual Studio Code</span
+        >
+        <span class="top-link">Docs</span>
+        <span class="top-link">Updates</span>
+        <span class="top-link">Blog</span>
+        <span class="top-link">API</span>
+        <span class="top-link">Extensions</span>
+        <span class="top-link">FAQ</span>
+        <span class="top-link">GitHub Copilot</span>
+      </div>
+
+      <div style="display: flex; justify-content: center">
+        <input type="text" placeholder="Search Docs" />
+        <button style="padding: 10px" class="top-link">Download</button>
+      </div>
+    </div>
+
+    <div class="Banner" id="notificationBanner">
+      <span
+        ><p>
+          <a href="/updates" style="color: #4daafc; margin-left: 300px"
+            >Version 1.94</a
+          >
+          is now available! Read about the new features and fixes from
+          September.
+        </p></span
+      >
+      <span
+        class="close-btn"
+        style="margin-right: 25px; cursor: pointer"
+        onclick="closeBanner()"
+        >X</span
+      >
+    </div>
+
+    <h1>Code faster with AI</h1>
+    <h2>
+      Visual Studio Code with GitHub Copilot supercharges your<br />
+      code with AI-powered suggestions, right in your editor.
+    </h2>
+    <div class="Buttons">
+      <button class="Download-Buttons" id="download-button-1">
+        Download for Windows
+      </button>
+      <button class="Download-Buttons second-button" id="download-button-2">
+        Try GitHub Copilot
+      </button>
+    </div>
+    <p
+      class="download-ps"
+      id="hover-para"
+      style="color: gray; text-align: center"
+    >
+      By using VS code, you agree to its
+      <a style="color: gray" href="">license</a> and
+      <a style="color: gray" href="">privacy statement</a>
+    </p>
+    <div class="hero-image">
+      <img
+        src="https://code.visualstudio.com/assets/home/home-screenshot-copilot.png"
+        alt=""
+      />
+    </div>
+
+    <div class="container">
+      <div class="div1">
+        <h2 style="font-size: 30px; text-align: left; color: white">
+          Code with GitHub <br />Copilot
+        </h2>
+        <p>
+          Write code faster and smarter with GitHub <br />
+          Copilot, your AI pair programmer.
+        </p>
+        <a href="">Try GitHub Copilot free for 30 days</a>
+        <p>
+          <a href="">Completions</a> present suggestions <br />automatically to
+          help you code more <br />efficiently.
+        </p>
+        <p>
+          <a href="">Copilot Chat</a> understands the context of <br />your
+          code, workspace, extensions, settings, <br />and more.
+        </p>
+        <p>
+          <a href="">Inline Chat</a> enables you to iteratively <br />generate
+          edits and get answers to quick <br />questions, directly on your code.
+        </p>
+      </div>
+
+      <div class="div2">
+        <img
+          src="https://code.visualstudio.com/assets/home/swimlane-copilot.png"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

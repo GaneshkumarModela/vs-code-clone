@@ -1,0 +1,145 @@
+body {
+  background-color: #0d1117;
+}
+.Nav-Bar {
+  color: gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  border-style: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 95%;
+  background-color: #0d1117;
+  padding-top: 10px;
+}
+.top-link {
+  padding: 15px;
+  cursor: pointer;
+}
+.top-link:hover {
+  color: white;
+}
+input {
+  width: 200px;
+  height: 35px;
+  background-color: #0d1117;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  color: white;
+  height: 39px;
+  width: 100px;
+  background-color: #4daafc;
+  border-style: none;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: smaller;
+  margin-left: 5px;
+}
+
+button:hover {
+  background-color: skyblue;
+}
+
+.Banner {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  color: gray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 90px;
+}
+
+h1 {
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  font-size: 75px;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 5px;
+}
+h2 {
+  color: gray;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  text-align: center;
+  margin-top: 2px;
+}
+.Download-Buttons {
+  height: 50px;
+  width: 250px;
+  margin-top: 15px;
+  font-size: medium;
+  cursor: pointer;
+}
+.second-button {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.Buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.download-ps {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  margin-top: 7px;
+  font-size: 13px;
+  display: none;
+}
+.hero-image {
+  width: 90%;
+  margin-top: 50px;
+  margin-left: 5%;
+}
+.hero-image img {
+  width: 100%;
+}
+.container {
+  display: flex;
+  justify-content: space-between; /* Distributes space between divs */
+  margin-top: 100px;
+  gap: 20px; /* Adds space between the divs */
+
+
+}
+.div1{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  width: 30%;
+  padding-left: 70px;
+  font-size: 17px;
+}
+.div1 p{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 160%;
+  color: #9ba3b4;
+}
+.div1 a{
+  color: #4daafc;
+}
+.div2{
+  width:55%;
+  /* border: 1px dashed white; */
+  margin-right: 70px;
+}
+.div2 img{
+  width: 100%;
+}
+
+
+
